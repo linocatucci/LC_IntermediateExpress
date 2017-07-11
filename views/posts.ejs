@@ -1,0 +1,9 @@
+<h1>The posts page</h1>
+<% posts.forEach(function(post){ %>
+    <p>
+        <li>
+            <%= post.title %>
+                <strong> <%= post.author %></strong>
+        </li>
+    </p>
+    <% }) %>
